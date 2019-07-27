@@ -45,10 +45,21 @@
       <div class="col container">
         <div class="row justify-content-center">
           <main class="col col-sm-11 col-md-10 col-lg-9 mx-auto">
-            <img id="profile_pic" src="./assets/images/profile_pic.jpg" alt="Picture of Noah">
-            <p class="bio">&emsp;&emsp;I'm a recent graduate from the University of Oregon with a MM in oboe performance, and I also have a BS in applied physics and a BM in oboe performance from the same University. I have experience in Python and R in a data science context, and I'm currently learning more technologies as part of a full-stack program based in Portland.
-                <br>&emsp;&emsp;In my free time I play banjo, piano, sometimes mandolin, and enjoy reading horror. I like coffee, cats, and long walks.
-            </p>
+              <form>
+                  <div class="form-group">
+                    <label for="name-input">Email address</label>
+                    <input type="name" class="form-control" id="name-input" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                      <label for="email-input">Email address</label>
+                      <input type="email" class="form-control" id="email-input" placeholder="Email">
+                    </div>
+                  <div class="form-group">
+                    <label for="message_input">Message</label>
+                    <textarea class="form-control" id="message_input" rows="3"></textarea>
+                  </div>
+                  <button class="btn btn-md">Submit</button>
+                </form>
           </main>
         </div>
       </div>
