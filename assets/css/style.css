@@ -26,12 +26,31 @@ footer p {
   font-size: 10px;
 }
 
+div.card img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: solid 2px #dddddd;
+  object-fit: cover;
+}
+
 #profile_pic {
   height:200px;
   width:200px;
   margin-right: 20px;
   margin-left: 20px;
   float:left;
+}
+
+.card {
+  position: relative;
+}
+
+.card-img-overlay {
+  background-color: #4aaaa5;
+  color: #ffffff!important;
+  position: absolute;
+  height: 5%;
 }
 
 .bio {
@@ -59,4 +78,42 @@ footer p {
 
 .nav-link:active {
   color: #48c4bd!important;
+}
+
+.portfolio_container {
+  /* width: 200px;
+  height: 200px; */
+  text-align: center;
+}
+
+.portfolio_pic {
+  width: 140px;
+  height: 120px;
+  margin: 10px;
+  border: solid 2px #dddddd;
+  object-fit: cover;
+}
+
+.portfolio_pic:hover {
+  border: solid 2px #4aaaa5;
+}
+
+.portfolio_pic:active {
+  border: solid 2px #48c4bd;
+}
+
+.portfolio_pic:active ~ .banner {
+  background-color: #48c4bd;
+}
+
+.banner {
+  height: 17px;
+  width: 136px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: -apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 12px;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
 }
